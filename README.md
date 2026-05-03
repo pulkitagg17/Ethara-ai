@@ -13,12 +13,12 @@ The application follows a modern, decoupled client-server architecture, utilizin
 graph TD
     Client[Client Browser]
     
-    subgraph Frontend [Frontend (Vite + React + TS)]
+    subgraph Frontend ["Frontend (Vite + React + TS)"]
         UI[UI Components & Views]
         State[React Query / Hooks]
     end
     
-    subgraph Backend [Backend (Node.js + Express + TS)]
+    subgraph Backend ["Backend (Node.js + Express + TS)"]
         API[API Routes]
         Auth[Auth Middleware]
         Controllers[Controllers & Logic]
