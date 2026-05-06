@@ -13,7 +13,7 @@
     "prisma:studio": "prisma studio"
   },
   "keywords": [],
-  "author": "Yash Garg",
+  "author": "Pulkit Aggarwal",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.19.3",
